@@ -26,12 +26,14 @@ hi Todo			guifg=Black	guibg=orange
 hi Cursor		guibg=#60a060 guifg=#00ff00
 hi Search		guibg=lightslateblue
 hi IncSearch	gui=NONE guibg=steelblue
-hi LineNr		guifg=darkgrey
+hi LineNr       guifg=darkGrey term=bold cterm=bold ctermfg=darkGrey ctermbg=NONE
 hi title		guifg=darkgrey
 hi StatusLineNC	gui=NONE guifg=lightblue guibg=darkblue
 hi StatusLine	gui=bold	guifg=cyan	guibg=blue
 hi label		guifg=gold2
 hi operator		guifg=orange
+hi ColorColumn  guibg=grey ctermbg=grey
+highlight Pmenu ctermbg=green
 hi clear Visual
 hi Visual		term=reverse cterm=reverse gui=reverse
 hi DiffChange   guibg=darkgreen
