@@ -10,11 +10,11 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "foivos"
-hi comment		cterm=bold
-hi constant		cterm=bold
-hi statement	cterm=bold
-hi preproc		cterm=bold
-hi type			cterm=bold
+hi comment		  cterm=bold
+hi constant		  cterm=bold
+hi statement	  cterm=bold
+hi preproc		  cterm=bold
+hi type			    cterm=bold
 hi linenr       ctermfg=darkgrey ctermbg=none
 hi cursorlinenr term=bold cterm=bold ctermfg=10
 hi cursorline   term=none cterm=none
@@ -22,4 +22,5 @@ hi colorcolumn  ctermbg=grey
 hi pmenu        ctermbg=green
 hi vertsplit    ctermbg=8 ctermfg=8
 hi clear visual
-hi visual		term=reverse cterm=reverse
+hi visual		    term=reverse cterm=reverse
+hi statusline   ctermbg=8 ctermfg=10
